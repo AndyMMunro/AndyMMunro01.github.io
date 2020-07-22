@@ -1,0 +1,30 @@
+* {
+    background: ;
+}
+
+.background {}
+
+.car .carousel-er {
+    margin-top: 40px;
+    width: 100%;
+
+}
+
+#navbar {
+    background-color: gray;
+    margin-top: 0px;
+}
+
+.nav-link {
+    color: hotpink;
+}
+
+.contact-Column {
+    float: right;
+}
+
+.aboutmeTitle {
+    margin-top: 20px;
+    text-align: center;
+    
+}
