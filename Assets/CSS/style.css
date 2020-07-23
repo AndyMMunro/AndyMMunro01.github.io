@@ -2,12 +2,24 @@
     background: ;
 }
 
-.background {}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.col-md-4{
+    align-content: center;
+}
+
 
 .car .carousel-er {
     margin-top: 40px;
     width: 100%;
-
 }
 
 #navbar {
@@ -26,5 +38,5 @@
 .aboutmeTitle {
     margin-top: 20px;
     text-align: center;
-    
+
 }
