@@ -12,10 +12,20 @@ footer {
     text-align: center;
 }
 
-.col-md-4{
-    align-content: center;
+.wrapper {
+    /* Box-model */
+    width: 1024px;
+
+    /* Positioning */
+    margin: 10px auto;
 }
 
+@media screen and (max-width: 768px) {
+    /* The wrapper's width will be 600px */
+    .wrapper {
+        width: 600px;
+    }
+}
 
 .car .carousel-er {
     margin-top: 40px;
@@ -40,3 +50,5 @@ footer {
     text-align: center;
 
 }
+
+.row div
