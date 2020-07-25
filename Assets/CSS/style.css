@@ -20,10 +20,13 @@ footer {
     margin: 10px auto;
 }
 
+
 @media screen and (max-width: 768px) {
+
     /* The wrapper's width will be 600px */
     .wrapper {
         width: 600px;
+        .container-cards:
     }
 }
 
