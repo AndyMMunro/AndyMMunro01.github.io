@@ -1,15 +1,7 @@
 * {
     background: ;
-}
+    font-family: 'Lexend Peta', sans-serif;
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: gray;
-    color: white;
-    text-align: center;
 }
 
 .wrapper {
@@ -30,11 +22,6 @@ footer {
     }
 }
 
-.car .carousel-er {
-    margin-top: 40px;
-    width: 100%;
-}
-
 #navbar {
     background-color: gray;
     margin-top: 0px;
@@ -44,12 +31,73 @@ footer {
     color: hotpink;
 }
 
-.contact-Column {
-    float: right;
+#contact-Column {
+    justify-content: center;
+}
+
+.contact-header {
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-form {
+    justify-content: center;
 }
 
 .aboutmeTitle {
     margin-top: 20px;
     text-align: center;
 
+}
+
+.carousel .slide {
+    width: fit-content;
+    height: fit-content;
+}
+
+.car-positioning {
+    justify-content: center;
+}
+
+.car .carousel-er {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.card-position {
+    margin-bottom: 5%;
+}
+
+.card-body-index {
+    height: 150px;
+}
+
+.synopsis {
+    margin-bottom: 90px;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    justify-content: center;
+    height: 40px;
+
+}
+
+.breadcrumb {
+    margin: 1px;
+    background-color: gray;
+}
+
+.breadcrumb-item.active {
+    color: #edf2f6;
 }
