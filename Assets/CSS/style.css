@@ -64,6 +64,12 @@
     width: 100%;
 }
 
+.card-body-projects {
+
+    justify-content: center;
+    text-align: center;
+}
+
 .card-position {
     margin-bottom: 5%;
 }
